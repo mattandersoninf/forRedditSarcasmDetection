@@ -11,4 +11,6 @@ Learning the Reddit API: https://www.youtube.com/watch?v=NRgfgtzIhBQ
 
 Learning Reddit parsing with scarpy: https://kite.com/blog/python/web-scraping-scrapy
 
-Hide API keys: https://www.youtube.com/watch?v=0WfDe51pUU0
+Hide API keys: http://www.blacktechdiva.com/hide-api-keys/
+
+gitignore files: https://www.youtube.com/watch?v=0WfDe51pUU0
