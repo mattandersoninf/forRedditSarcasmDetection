@@ -1,0 +1,8 @@
+About the data being scraped from Reddit
+----------------------------------------
+
+The primary setup fo rthe csv file includes the following parameters:
+1. subreddit - the name of the subreddit
+2. comment - text given in the comment
+3. username - the username of the person who submitted the comment
+4. datetime - when the comment was posted to Reddit 
