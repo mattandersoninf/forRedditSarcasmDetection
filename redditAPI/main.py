@@ -45,6 +45,9 @@ for submission in hot_python:
             print('\n'+i+'. Comment Author: '+str(comment.author))
             print('\n'+i+'. Comment Post Time: '+str(comment.created_utc))
             print('\n'+i+'. Comment Subreddit: '+str(comment.subreddit))
+            print('\n'+i+'. Comment ID: '+str(comment.id))
+            print('\n'+i+'. Comment Link_ID: '+str(comment.link_id))
+            print('\n'+i+'. Comment Parent_ID: '+str(comment.parent_id))
             i = str(int(i)+1)
             if int(i) > 10:
                 break
