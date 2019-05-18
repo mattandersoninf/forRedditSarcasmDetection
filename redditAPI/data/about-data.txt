@@ -1,0 +1,40 @@
+About the data being scraped from Reddit
+----------------------------------------
+
+The primary setup fo rthe csv file includes the following parameters:
+1. subreddit    - the name of the subreddit
+2. comment      - text given in the comment
+3. username     - the username of the person who submitted the comment
+4. datetime     - when the comment was posted to Reddit 
+5. body         - the reddit comment's text
+6. created_utc  - the time that the comment was posted
+7. link_id      - the numerical id of the link
+8. parent_id    - the numerical id of the parent object
+
+reddit object codes are as follows:
+
+t1_             : comment
+t2_             : account
+t3_             : link
+t4_             : message
+t5_             : subreedit
+t6_             : award 
+
+
+
+
+"""
+# an example dataset has compiled comments from the following subreddits
+# AskReddit, politics, worldnews, leagueoflegends, pcmasterrace, news, funny, pics, todayileanred, GlobalOffensive, AlexJones, The_Donald, JoeRogan, vegan, Overwatch, apexlegends, CallOfDuty, ukpolitics, oddlysatisfying, conspiracy, AskAnAmerican, DotA2, wow, firstworldanarchists, youtubehaiku, Whatcouldgowrong, LivestreamFail, FIFA, cringe, uncensorednews, worldpolitics, JusticeServed, showerthoughts, leagueoflegends, BlackPeopleTwitter, space, DestinyTheGame, TopMindsOfReddit, FloridaMan, ImGoingToHellForThis, anime_irl, cringe, BigBrother
+
+# remember to add a condition that verifies if the subreddit still exists
+
+# [pics, uncensorednews] don't work, expel for now
+
+# pics for example throws the following exception "prawcore.exceptions.NotFound: received 404 HTTP response", will review later
+
+# response 404 means that the resource does not exist. look further into what could have been removed from reddit
+
+# response 504 reddit is under heavy pressure, or you're trying to throw up a cooment into reddit's database (which this script does not do at all)
+
+"""
